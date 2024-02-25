@@ -14,7 +14,10 @@ public class Livro {
 
 
     public String toString() {
-        return "Título: " + titulo + "\nAutor: " + autor + "\nData 1ª Publicação: " + dataPublicacao + "\nPreço: R$" + preco;
+        return "Título: " + titulo 
+        + "\nAutor: " + autor 
+        + "\nData 1ª Publicação: " + dataPublicacao 
+        + "\nPreço: R$" + preco;
     }
 
 
