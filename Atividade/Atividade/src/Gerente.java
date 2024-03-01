@@ -17,12 +17,10 @@ public class Gerente extends Funcionario{
         super(id, nome,salarioBase);
     }
 
-
     @Override
     public String toString(){
    return "\nId:" + id +"\nNome:" + nome + "\nSalario:" + this.calcularSalario();
     }
-
 
     @Override
     public double calcularSalario() {

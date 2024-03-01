@@ -6,17 +6,14 @@ import java.util.List;
 public class Empresa {
     private static List<Funcionario> Funcionario;
 
-    // Construtor
     public Empresa() {
         Empresa.Funcionario = new ArrayList<>();
     }
 
-    // Método para adicionar funcionários
     public static void adicionarFuncionario(Funcionario funcionario) {
         Funcionario.add(funcionario);
     }
 
-    // Método para calcular a folha salarial total
     public double calcularFolhaSalarial() {
         double total = 0;
         for (Funcionario f : Funcionario) {

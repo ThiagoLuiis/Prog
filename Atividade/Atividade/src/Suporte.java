@@ -16,14 +16,10 @@ public class Suporte extends Funcionario{
         super(id, nome,salarioBase);
     }
 
-  
-
     @Override
     public String toString() {
         return "\nId:" +id + "\nNome: " +nome + "\nSalario: " + this.calcularSalario();
     }
-
-
 
     @Override
     public double calcularSalario() {
