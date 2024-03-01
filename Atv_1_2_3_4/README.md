@@ -1,1 +1,1 @@
-Entrega de atividades da primeira lista de Estrutura de Dados e Análise de Algoritmos
+Entrega de atividades da primeira lista de Estrutura de Dados e Análise de Algoritmo.
